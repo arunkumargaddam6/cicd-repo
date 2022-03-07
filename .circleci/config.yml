@@ -1,7 +1,7 @@
 version: 2
 anchors:  
 jobs:
-  Installing prerequiste:
+  Installing prerequiste: #job name
     machine:
       image: ubuntu-2004:current
     steps: 

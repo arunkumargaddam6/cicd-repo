@@ -10,6 +10,6 @@
     register: all_employees_info
   - name: printing employee information 
     debug:
-      msg: '{{ all_employees_info }}'
+      msg: "{{ all_employees_info }}"
 
   
