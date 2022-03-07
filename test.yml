@@ -1,6 +1,6 @@
 ---
 - name: rest_api playbook
-  hosts: localhost
+  hosts: all
   tasks:
   - name: getting all employees info
     uri:
