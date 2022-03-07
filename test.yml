@@ -1,5 +1,5 @@
 ---
-- name: cowin playbook
+- name: rest_api playbook
   hosts: localhost
   tasks:
   - name: getting all employees info
@@ -8,10 +8,8 @@
       method: GET
       status_code: 200
     register: all_employees_info
-    tags: get_info
   - name: printing employee information 
-      debug:
-        msg: '{{ all_employees_info }}'
-    tags: get_info
+    debug:
+      msg: '{{ all_employees_info }}'
 
   
